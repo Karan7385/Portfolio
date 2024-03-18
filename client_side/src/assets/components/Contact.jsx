@@ -11,7 +11,7 @@ export default function Contact() {
   } = useForm();
 
   const onSubmit = async (data) => {
-    let r = await fetch("http://localhost:3000/", {
+    let r = await fetch("https://portfolio-ct3w.vercel.app/:3000/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
