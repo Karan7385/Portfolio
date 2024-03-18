@@ -56,10 +56,10 @@ const TypedComponent = () => {
           <h2 className='lekton-bold text-sm sm:text-2xl'>I am <span className='text-white' ref={typedElementRef} /></h2>
 
           <div className="flex flex-row space-x-10 mt-10">
-            <Link to="projects" smooth={true} duration={500} className="w-auto text-2xl hover:text-3xl transition-all duration-500 text-white"><i className="fa fa-github" aria-hidden="true"></i></Link>
-            <Link to="projects" smooth={true} duration={500} className="w-auto text-2xl hover:text-3xl transition-all duration-500 text-blue-700"><i className="fa fa-linkedin" aria-hidden="true"></i></Link>
-            <Link to="projects" smooth={true} duration={500} className="w-auto text-2xl hover:text-3xl transition-all duration-500 text-pink-700"><i className="fa fa-instagram" aria-hidden="true"></i></Link>
-            <Link to="projects" smooth={true} duration={500} className="w-auto text-2xl hover:text-3xl transition-all duration-500 text-white"><i className="fa fa-envelope" aria-hidden="true"></i></Link>
+            <Link to="https://github.com/Karan7385?tab=repositories" smooth={true} duration={500} className="w-auto text-2xl hover:text-3xl transition-all duration-500 text-white"><i className="fa fa-github" aria-hidden="true"></i></Link>
+            <Link to="www.linkedin.com/in/vishwakarmakaran" smooth={true} duration={500} className="w-auto text-2xl hover:text-3xl transition-all duration-500 text-blue-700"><i className="fa fa-linkedin" aria-hidden="true"></i></Link>
+            <Link to="https://www.instagram.com/karanvishwakarma7385/" smooth={true} duration={500} className="w-auto text-2xl hover:text-3xl transition-all duration-500 text-pink-700"><i className="fa fa-instagram" aria-hidden="true"></i></Link>
+            <Link to="mailto:karanvishwakarma7385@gmail.com" smooth={true} duration={500} className="w-auto text-2xl hover:text-3xl transition-all duration-500 text-white"><i className="fa fa-envelope" aria-hidden="true"></i></Link>
           </div>
         </animated.div>
       </div>
