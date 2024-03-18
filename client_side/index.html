@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" href="logo1.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <title>Karan Vishwakarma | Full Stack Web Developer</title>
+
+    <style>
+      .ubuntu-medium {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      .lekton-bold {
+        font-family: "Lekton", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body  class="bg-black h-screen ubuntu-medium">
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      const sr = ScrollReveal({
+        distance: '65px',
+        duration: 2600,
+        delay: 450,
+        easing: 'cubic-bezier(0.5, 0, 0, 1)',
+        reset: true
+      });
+      sr.reveal('#home', { delay: 200, origin: 'top' });
+      sr.reveal('#skills', { delay: 450, origin: 'top' });
+      sr.reveal('#about', { delay: 500, origin: 'right' });
+      sr.reveal('#projects', { delay: 500, origin: 'top' });
+      sr.reveal('#contact', { delay: 500, origin: 'left' });
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
